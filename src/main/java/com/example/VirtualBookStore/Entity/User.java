@@ -31,6 +31,9 @@ public class User {
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
     private List<Order> orders;
 
+    @Enumerated(EnumType.STRING)
+    private Role role = Role.USER;
+
     public Long getId() { return id; }
 
 

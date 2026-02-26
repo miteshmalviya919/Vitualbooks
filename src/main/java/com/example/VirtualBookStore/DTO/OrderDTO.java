@@ -20,12 +20,12 @@ public class OrderDTO {
 
 
 
-    public OrderDTO(Long id, Date orderDate, double totalAmount, Long userId) {
-        this.id = id;
-        this.orderDate = orderDate;
-        this.totalAmount = totalAmount;
-        this.userId = userId;
-    }
+//    public OrderDTO(Long id, Date orderDate, double totalAmount, Long userId) {
+//        this.id = id;
+//        this.orderDate = orderDate;
+//        this.totalAmount = totalAmount;
+//        this.userId = userId;
+//    }
 
     public Date getOrderDate() {
         return orderDate;
